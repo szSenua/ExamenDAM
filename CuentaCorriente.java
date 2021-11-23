@@ -1,5 +1,5 @@
 
-package examencristinahidalgocobo;
+package examen;
 
 import java.util.Scanner;
 
