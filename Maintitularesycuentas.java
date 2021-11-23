@@ -1,5 +1,5 @@
 
-package examencristinahidalgocobo;
+package examen;
 
 
 public class Maintitularesycuentas {
