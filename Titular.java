@@ -43,8 +43,8 @@ public class Titular {
     //método que muestra los datos del titular
     public void muestraTitular(){
         System.out.println("Los datos del titular son:");
-        System.out.println("Nombre: "+ name +"\n Apellidos: "
-                +surnames+" Edad: "+ age);
+        System.out.println("Nombre: "+ this.name +"\n Apellidos: "
+                +this.surnames+" Edad: "+ this.age);
         
         
     }
