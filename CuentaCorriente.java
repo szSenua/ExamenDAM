@@ -8,12 +8,14 @@ public class CuentaCorriente {
     private Titular elTitular;
     private String numCuenta;
     private double saldo;
+    private Scanner input=new Scanner(System.in);
 
     //constructor con todos los atributos
     public CuentaCorriente(Titular elTitular, String numCuenta, double saldo) {
         this.elTitular = elTitular;
         this.numCuenta = numCuenta;
         this.saldo = saldo;
+        this.input = new Scanner(System.in);
     }
     
     //constructor sin saldo que lo inicia en 15.5
@@ -22,6 +24,7 @@ public class CuentaCorriente {
         this.elTitular = elTitular;
         this.numCuenta = numCuenta;
         this.saldo=15.5;
+        this.input = new Scanner(System.in);
     }
     
     //Get para todos los atributos
