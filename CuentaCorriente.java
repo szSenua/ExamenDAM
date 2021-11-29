@@ -114,9 +114,6 @@ public class CuentaCorriente {
         //a retirar
      
         public void retirarSaldo(double cantidad){
-            Scanner input=new Scanner(System.in);
-            System.out.println("Introduce una cantidad a retirar");
-            cantidad=input.nextDouble();
             double saldoTotal=this.saldo-cantidad;
             
                 if (cantidad>0 && (saldoTotal>0)) {
