@@ -64,6 +64,19 @@ public class CuentaCorriente {
         
     }
     
+    //sobrecargar método ingresar saldo
+    
+    public void ingresarSaldo(double ingreso){     
+        if (ingreso<0) {
+            System.out.println("No es posible realizar la operación");
+            
+        }else if (ingreso>=0) {
+            System.out.println("Su saldo actual es de: "+(this.saldo+ingreso));
+            
+        }
+        
+    }
+    
     
     //metodo imprimir cuenta imprime la info de la cuenta y la del titular
     
