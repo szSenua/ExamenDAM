@@ -52,7 +52,7 @@ public class CuentaCorriente {
     public void ingresarSaldo(){
         Scanner input=new Scanner(System.in);
         System.out.println("Teclee la cantidad a ingresar");
-        double ingreso=input.nextInt();
+        double ingreso=input.nextDouble();
         
         if (ingreso<0) {
             System.out.println("No es posible realizar la operación");
