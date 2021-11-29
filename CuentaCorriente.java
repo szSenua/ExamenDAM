@@ -174,7 +174,7 @@ public class CuentaCorriente {
         public void esIgual(){
             String nuevaCuenta="44455566";
             
-            if (this.numCuenta!=nuevaCuenta) {
+            if (this.numCuenta!=nuevaCuenta) { //usar equals
                 System.out.println("Los números de cuenta son diferentes");
                 
             }else{
